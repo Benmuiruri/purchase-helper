@@ -1,5 +1,7 @@
-/* eslint-disable */
+/* eslint-disable react/destructuring-assignment */
+/* eslint-disable react/forbid-prop-types */
 import React from 'react';
+import PropTypes from 'prop-types';
 import calculate from '../logic/calculate';
 
 import './Calculator.css';
@@ -39,22 +41,22 @@ class Calculator extends React.Component {
 
   render() {
     return (
-      <div className='calculator'>
-        <div id='display-result' className='display-result'>
-          <input className='display' placeholder='0' />
+      <div className="calculator">
+        <div id="display-result" className="display-result">
+          <input className="display" placeholder="0" />
         </div>
 
-        <div className='numbers-container'>
+        <div className="numbers-container">
           <button
-            type='button'
-            className='ac double-width light-grey'
+            type="button"
+            className="ac double-width light-grey"
             onClick={this.handleClick}
           >
             AC
           </button>
           {this.props.nums.map((num) => (
             <button
-              type='button'
+              type="button"
               className={`dark-grey ${num === 0 && 'double-width'}`}
               key={num}
               onClick={this.handleClick}
@@ -63,18 +65,18 @@ class Calculator extends React.Component {
             </button>
           ))}
           <button
-            type='button'
-            className='light-grey'
+            type="button"
+            className="light-grey"
             onClick={this.handleClick}
           >
             .
           </button>
         </div>
-        <div className='operations-container'>
+        <div className="operations-container">
           {this.props.ops.map((op) => (
             <button
-              type='button'
-              className='orange'
+              type="button"
+              className="orange"
               key={op}
               onClick={this.handleClick}
             >
@@ -86,5 +88,9 @@ class Calculator extends React.Component {
     );
   }
 }
+Calculator.propTypes = {
+  nums: PropTypes.array.isRequired,
+  ops: PropTypes.array.isRequired,
+};
 
 export default Calculator;
