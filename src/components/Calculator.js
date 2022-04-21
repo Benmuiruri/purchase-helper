@@ -1,32 +1,44 @@
-/* eslint-disable react/destructuring-assignment */
-/* eslint-disable react/forbid-prop-types */
+/* eslint-disable */
 import React from 'react';
 import PropTypes from 'prop-types';
-import Display from './Display';
-import Keypad from './Keypad';
-import Operations from './Operations';
+
 import './Calculator.css';
 
 class Calculator extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = { nums: this.props.nums, ops: this.props.ops };
   }
 
   render() {
     return (
       <div className="calculator">
-        <Display />
-        <Keypad digits={this.props.nums} />
-        <Operations ops={this.props.ops} />
+        <div id="display" className="display">
+          125
+        </div>
+
+        <div className="numbers-container">
+          <button className="ac double-width light-grey">AC</button>
+          {this.state.nums.map((num) => (
+            <button
+              className={`dark-grey ${num === 0 && 'double-width'}`}
+              key={num}
+            >
+              {num}
+            </button>
+          ))}
+          <button className="light-grey">.</button>
+        </div>
+        <div className="operations-container">
+          {this.state.ops.map((op) => (
+            <button className="orange" key={op}>
+              {op}
+            </button>
+          ))}
+        </div>
       </div>
     );
   }
 }
-
-Calculator.propTypes = {
-  nums: PropTypes.array.isRequired,
-  ops: PropTypes.array.isRequired,
-};
 
 export default Calculator;
