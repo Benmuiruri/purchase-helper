@@ -28,6 +28,11 @@ class Calculator extends React.Component {
   }
 
   handleClick = (e) => {
+    if (e.target.textContent === 'AC') {
+      const display = document.querySelector('.display');
+      // @ts-ignore
+      display.value = 0;
+    }
     const { total, next, operation } = this.state;
     this.setState(calculate({ total, next, operation }, e.target.textContent));
   };
