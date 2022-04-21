@@ -19,8 +19,10 @@ class Calculator extends React.Component {
     const { total, next } = this.state;
     const display = document.querySelector('.display');
     if (next != null) {
+      // @ts-ignore
       display.value = next;
     } else if (total != null) {
+      // @ts-ignore
       display.value = total;
     }
   }
@@ -28,7 +30,6 @@ class Calculator extends React.Component {
   handleClick = (e) => {
     const { total, next, operation } = this.state;
     this.setState(calculate({ total, next, operation }, e.target.textContent));
-    console.log(calculate({ total, next, operation }, e.target.textContent));
   };
 
   render() {
@@ -56,7 +57,13 @@ class Calculator extends React.Component {
               {num}
             </button>
           ))}
-          <button className='light-grey'>.</button>
+          <button
+            type='button'
+            className='light-grey'
+            onClick={this.handleClick}
+          >
+            .
+          </button>
         </div>
         <div className='operations-container'>
           {this.props.ops.map((op) => (
