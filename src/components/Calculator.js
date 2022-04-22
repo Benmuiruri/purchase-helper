@@ -1,17 +1,17 @@
-/* eslint-disable react/destructuring-assignment */
-/* eslint-disable react/forbid-prop-types */
 import React, { useEffect, useState } from 'react';
-import PropTypes from 'prop-types';
 import calculate from '../logic/calculate';
 
 import './Calculator.css';
 
-const Calculator = (props) => {
+const Calculator = () => {
   const [calc, setCalc] = useState({
     total: '',
     next: '',
     operation: '',
   });
+
+  const numbers = [7, 8, 9, 4, 5, 6, 1, 2, 3, 0];
+  const operations = ['÷', 'x', '-', '+', '='];
 
   useEffect(() => {
     const { total, next } = calc;
@@ -49,7 +49,7 @@ const Calculator = (props) => {
         >
           AC
         </button>
-        {props.nums.map((num) => (
+        {numbers.map((num) => (
           <button
             type="button"
             className={`dark-grey ${num === 0 && 'double-width'}`}
@@ -64,7 +64,7 @@ const Calculator = (props) => {
         </button>
       </div>
       <div className="operations-container">
-        {props.ops.map((op) => (
+        {operations.map((op) => (
           <button
             type="button"
             className="orange"
@@ -77,11 +77,6 @@ const Calculator = (props) => {
       </div>
     </div>
   );
-};
-
-Calculator.propTypes = {
-  nums: PropTypes.array.isRequired,
-  ops: PropTypes.array.isRequired,
 };
 
 export default Calculator;
