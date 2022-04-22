@@ -3,7 +3,7 @@
 ## Preview
 <p align="center">Desktop view</p>
 
-Desktop view images coming soon
+<img src="./src/assets/calc.png">
 
 <h1 align="center"> Stream-It </h1>
 
