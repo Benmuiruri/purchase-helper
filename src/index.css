@@ -9,11 +9,12 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   background-color: #bdc581;
   font-family: 'Orbitron', sans-serif;
   min-height: 100vh;
-  display: flex;
+  width: 70vw;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
