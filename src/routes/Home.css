@@ -1,0 +1,27 @@
+article {
+  padding-top: 2em;
+  width: 65%;
+  margin: 0 auto;
+}
+
+h3 {
+  font-size: 2em;
+  text-align: center;
+}
+
+p {
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  font-size: 1.1em;
+}
+
+span {
+  color: darkcyan;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: darkcyan;
+  font-weight: bold;
+}

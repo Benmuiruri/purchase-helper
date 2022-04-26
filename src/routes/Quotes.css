@@ -1,0 +1,23 @@
+.quote-box {
+  padding-top: 5em;
+}
+
+.inner-content {
+  padding: 1em;
+}
+
+.quote {
+  margin-top: 20px;
+  padding-left: 40px;
+  letter-spacing: 0.05em;
+  font-size: 1.2em;
+}
+
+.quote-btn {
+  color: #fff;
+  background-color: darkcyan;
+  padding: 0.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  width: auto;
+}
