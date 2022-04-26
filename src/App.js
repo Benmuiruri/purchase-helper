@@ -1,23 +1,16 @@
-import { Link } from 'react-router-dom';
 import React from 'react';
 import Calculator from './components/Calculator';
+import Navigation from './components/Navigation';
 
-const App = () => (
-  <div>
-    <nav
-      style={{
-        borderBottom: 'solid 1px',
-        paddingBottom: '1rem',
-      }}
-    >
-      <Link to="/calculator">calculator</Link>
-      {' '}
-      |
-      {' '}
-      <Link to="/quotes">Quotes</Link>
-    </nav>
-    <Calculator />
-  </div>
-);
+function App() {
+  return (
+    <div>
+      <Navigation />
+      <div>
+        <Calculator />
+      </div>
+    </div>
+  );
+}
 
 export default App;
