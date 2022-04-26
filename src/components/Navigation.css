@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  background-color: #000;
+  color: #fff;
+  justify-content: space-between;
+}
+
+.header h2 {
+  padding-left: 1em;
+  font-size: 2em;
+  letter-spacing: 0.05em;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0.5em;
+  font-size: 1.3em;
+  letter-spacing: 0.05em;
+}
