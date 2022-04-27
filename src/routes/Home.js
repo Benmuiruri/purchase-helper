@@ -1,10 +1,8 @@
-import Navigation from '../components/Navigation';
 import './Home.css';
 
 export default function Home() {
   return (
     <section>
-      <Navigation />
       <article>
         <h3>Are you a math magician who loves math?</h3>
         <p>
