@@ -21,3 +21,16 @@
   text-decoration: none;
   width: auto;
 }
+
+@media screen and (max-width: 800px) {
+  .quote-box {
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .quote-btn {
+    width: fit-content;
+    align-self: center;
+  }
+}

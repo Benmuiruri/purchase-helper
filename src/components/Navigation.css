@@ -19,3 +19,18 @@
   display: flex;
   list-style-type: none;
 }
+
+@media screen and (max-width: 800px) {
+  .header {
+    flex-direction: column;
+  }
+  
+  .header div {
+    margin: 0 auto;
+  }
+
+  .header ul {
+    margin: 0 auto;
+    padding-bottom: 1.5em;
+  }
+}
