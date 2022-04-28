@@ -1,9 +1,13 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 ## Preview
-<p align="center">Desktop view</p>
+<p align="center">Homepage</p>
 
-<img src="./src/assets/calc.png">
+<img src="./src/assets/homepage.png">
+
+<p align="center">Calculator</p>
+
+<img src="./src/assets/calculator.png">
 
 <h1 align="center"> Math Magicians </h1>
 
@@ -13,11 +17,13 @@
 
 ## Built With
 
-- **REACT** 
+- **REACT** **Javascript** **CSS** 
 
 ## DEMO
 
-- Live demo link coming soon 
+- **Netlify Live Link** [Netlify](https://espada-math-magician.netlify.app/)
+  
+- **Heruku Live Link** [Heroku](https://espada-math-magician.herokuapp.com/)
   
 ## Video Description
 
