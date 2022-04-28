@@ -27,7 +27,7 @@ function Navigation() {
       <ul className="navigation">
         {links.map((link) => (
           <li key={link.id} className="navLink">
-            <NavLink to={link.path} className="link">
+            <NavLink data-testid={link.id} to={link.path} className="link">
               {link.text}
             </NavLink>
           </li>
