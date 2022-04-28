@@ -1,3 +1,10 @@
+.calc-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2em;
+}
+
 .calculator {
   background-color: #111;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
@@ -6,6 +13,12 @@
   height: 500px;
   width: 290px;
   padding: 5px;
+}
+
+.calc-content p {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 button {
