@@ -1,35 +1,20 @@
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import Calculator from './components/Calculator';
 import Navigation from './components/Navigation';
+import Quotes from './routes/Quotes';
+import Home from './routes/Home';
 import './App.css';
 
 function App() {
   return (
-    <div>
+    <div className="site-wrapper">
       <Navigation />
-      <div className="calc-content">
-        <h3>
-          Let us do some
-          {' '}
-          <span> Math Magic </span>
-          !
-        </h3>
-        <p>
-          If you notice any bug while perfoming your
-          {' '}
-          <span> Math Magic </span>
-          ,
-          please raise an issue on the project Github page at this
-          {' '}
-          <a href="https://github.com/Benmuiruri/math-magician/issues">
-            Issue Page
-          </a>
-          {' '}
-        </p>
-      </div>
-      <div className="calc">
-        <Calculator />
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/calculator" element={<Calculator />} />
+        <Route path="/quotes" element={<Quotes />} />
+      </Routes>
     </div>
   );
 }

@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders component correctly 1`] = `
+Array [
+  <div
+    className="calc-content"
+  >
+    <h3>
+      Let us do some
+       
+      <span>
+         Math Magic 
+      </span>
+      !
+    </h3>
+    <p>
+      If you notice any bug while perfoming your
+       
+      <span>
+         Math Magic 
+      </span>
+      , please raise an issue on the project Github page at this
+       
+      <a
+        href="https://github.com/Benmuiruri/math-magician/issues"
+      >
+        Issue Page
+      </a>
+       
+    </p>
+  </div>,
+  <div
+    className="calculator"
+  >
+    <div
+      className="display-result"
+      data-testid="display-result"
+    >
+      <input
+        className="display"
+        placeholder="0"
+      />
+    </div>
+    <div
+      className="numbers-container"
+    >
+      <button
+        className="ac double-width light-grey"
+        onClick={[Function]}
+        type="button"
+      >
+        AC
+      </button>
+      <button
+        className="dark-grey false"
+        onClick={[Function]}
+        type="button"
+      >
+        7
+      </button>
+      <button
+        className="dark-grey false"
+        onClick={[Function]}
+        type="button"
+      >
+        8
+      </button>
+      <button
+        className="dark-grey false"
+        onClick={[Function]}
+        type="button"
+      >
+        9
+      </button>
+      <button
+        className="dark-grey false"
+        onClick={[Function]}
+        type="button"
+      >
+        4
+      </button>
+      <button
+        className="dark-grey false"
+        onClick={[Function]}
+        type="button"
+      >
+        5
+      </button>
+      <button
+        className="dark-grey false"
+        onClick={[Function]}
+        type="button"
+      >
+        6
+      </button>
+      <button
+        className="dark-grey false"
+        onClick={[Function]}
+        type="button"
+      >
+        1
+      </button>
+      <button
+        className="dark-grey false"
+        onClick={[Function]}
+        type="button"
+      >
+        2
+      </button>
+      <button
+        className="dark-grey false"
+        onClick={[Function]}
+        type="button"
+      >
+        3
+      </button>
+      <button
+        className="dark-grey double-width"
+        onClick={[Function]}
+        type="button"
+      >
+        0
+      </button>
+      <button
+        className="light-grey"
+        onClick={[Function]}
+        type="button"
+      >
+        .
+      </button>
+    </div>
+    <div
+      className="operations-container"
+    >
+      <button
+        className="orange"
+        onClick={[Function]}
+        type="button"
+      >
+        ÷
+      </button>
+      <button
+        className="orange"
+        onClick={[Function]}
+        type="button"
+      >
+        x
+      </button>
+      <button
+        className="orange"
+        onClick={[Function]}
+        type="button"
+      >
+        -
+      </button>
+      <button
+        className="orange"
+        onClick={[Function]}
+        type="button"
+      >
+        +
+      </button>
+      <button
+        className="orange"
+        onClick={[Function]}
+        type="button"
+      >
+        =
+      </button>
+    </div>
+  </div>,
+]
+`;
