@@ -58,7 +58,7 @@ const Calculator = () => {
         </p>
       </div>
       <div className="calculator">
-        <div id="display-result" className="display-result">
+        <div data-testid="display-result" className="display-result">
           <input className="display" placeholder="0" />
         </div>
 
