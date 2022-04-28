@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test presence of Quotes component renders the Quotes component correctly 1`] = `
+<div>
+  <h1
+    className="header-title"
+  >
+    Math Magicians
+  </h1>
+</div>
+`;
