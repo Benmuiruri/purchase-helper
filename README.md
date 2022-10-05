@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Math Magician - Purchase Helper
 
 ## Preview
 <p align="center">Homepage</p>
@@ -22,12 +22,8 @@
 ## DEMO
 
 - **Netlify Live Link** [Netlify](https://espada-math-magician.netlify.app/)
-  
 - **Heruku Live Link** [Heroku](https://espada-math-magician.herokuapp.com/)
   
-## Video Description
-
-- 
 
 ## Getting Started
 
@@ -45,9 +41,9 @@ To get a local copy up and running follow these setup steps below.
 
 👤 **Authors**
 
-- GitHub: [Ben Kiarie](https://github.com/Benmuiruri)
-- Twitter: [Optimize](https://twitter.com/_optimize)
-- LinkedIn: [Ben Kiarie](https://www.linkedin.com/in/benjamin-kiarie-180b66149/)
+- GitHub: [Ben Kiarie](https://github.com/Benmuiruri) - Follow me on Github, browse my projects, and leave a star for any project you like.
+- Twitter: [Optimize](https://twitter.com/_optimize) - Follow me on Twitter I will make your Timeline a bit more interesting
+- LinkedIn: [Ben Kiarie](https://www.linkedin.com/in/benjamin-kiarie-180b66149/) - Connect with me on LinkedIn lets expand our network for mutual benefits.
 
 ## 🤝 Contributing
 
